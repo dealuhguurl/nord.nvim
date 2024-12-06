@@ -37,8 +37,8 @@ function defaluts.highlights()
     Normal = { fg = c.snow_storm.origin, bg = utils.make_global_bg(true) }, -- normal text
     NormalFloat = { fg = c.snow_storm.origin, bg = global_bg }, -- Normal text in floating windows.
     FloatBorder = { fg = c.polar_night.brightest, bg = global_bg }, -- Borders of floating windows
-    Pmenu = { fg = c.snow_storm.origin, bg = c.polar_night.bright }, -- Popup menu: normal item.
-    PmenuSel = { fg = c.snow_storm.origin, bg = c.polar_night.brighter }, -- Popup menu: selected item.
+    Pmenu = { fg = c.snow_storm.origin, bg = c.global_bg }, -- Popup menu: normal item.
+    PmenuSel = { fg = c.polar_night.origin, bg = c.frost.ice }, -- Popup menu: selected item.
     PmenuSbar = { fg = c.snow_storm.origin, bg = c.polar_night.brighter }, -- Popup menu: scrollbar.
     PmenuThumb = { fg = c.frost.ice, bg = c.polar_night.brightest }, -- Popup menu: Thumb of the scrollbar.
     Question = { fg = c.snow_storm.origin }, -- |hit-enter| prompt and yes/no questions
